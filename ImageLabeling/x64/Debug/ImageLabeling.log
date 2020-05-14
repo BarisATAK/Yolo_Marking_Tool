@@ -1,0 +1,20 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (ImageLabeling.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  MyForm.cpp
+c:\users\atakb\desktop\yolomarkingtool\imagelabeling\myform.h(2): warning C4010: single-line comment contains line-continuation character
+c:\users\atakb\desktop\yolomarkingtool\imagelabeling\myform.h(762): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\atakb\desktop\yolomarkingtool\imagelabeling\myform.h(764): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\atakb\desktop\yolomarkingtool\imagelabeling\myform.h(771): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\atakb\desktop\yolomarkingtool\imagelabeling\myform.h(823): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
+c:\users\atakb\desktop\yolomarkingtool\imagelabeling\myform.h(823): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\atakb\desktop\yolomarkingtool\imagelabeling\myform.h(854): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
+c:\users\atakb\desktop\yolomarkingtool\imagelabeling\myform.h(854): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\atakb\desktop\yolomarkingtool\imagelabeling\myform.h(859): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\atakb\desktop\yolomarkingtool\imagelabeling\myform.h(856): warning C4101: 'y1': unreferenced local variable
+c:\users\atakb\desktop\yolomarkingtool\imagelabeling\myform.h(856): warning C4101: 'w1': unreferenced local variable
+c:\users\atakb\desktop\yolomarkingtool\imagelabeling\myform.h(856): warning C4101: 'x1': unreferenced local variable
+c:\users\atakb\desktop\yolomarkingtool\imagelabeling\myform.h(856): warning C4101: 'h1': unreferenced local variable
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ImageLabeling.vcxproj -> C:\Users\atakb\Desktop\YoloMarkingTool\x64\Debug\YoloMarkingTool.exe
