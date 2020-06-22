@@ -1,5 +1,5 @@
 ///////----------\\\\\\\
-Created By : BARIŞ ATAK
+Created By : BARIÃ ATAK
 ////////////////////////
 
 #pragma once
@@ -75,7 +75,7 @@ namespace ImageLabeling {
 	private: System::Windows::Forms::Panel^  panel2;
 	private: System::Windows::Forms::Label^  label4;
 	private: System::Windows::Forms::Label^  label3;
-	private: System::Windows::Forms::ImageList^  ımageList1;
+	private: System::Windows::Forms::ImageList^  Ã½mageList1;
 	private: System::Windows::Forms::Button^  button1;
 	private: System::Windows::Forms::Panel^  panel3;
 	private: System::Windows::Forms::TextBox^  textBox1;
@@ -143,7 +143,7 @@ namespace ImageLabeling {
 				 System::ComponentModel::ComponentResourceManager^  resources = (gcnew System::ComponentModel::ComponentResourceManager(MyForm::typeid));
 				 this->openFileDialog1 = (gcnew System::Windows::Forms::OpenFileDialog());
 				 this->loadImage = (gcnew System::Windows::Forms::Button());
-				 this->ımageList1 = (gcnew System::Windows::Forms::ImageList(this->components));
+				 this->Ã½mageList1 = (gcnew System::Windows::Forms::ImageList(this->components));
 				 this->label1 = (gcnew System::Windows::Forms::Label());
 				 this->label2 = (gcnew System::Windows::Forms::Label());
 				 this->boundingBoxListBox = (gcnew System::Windows::Forms::ListBox());
@@ -201,7 +201,7 @@ namespace ImageLabeling {
 				 this->loadImage->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 				 this->loadImage->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 				 this->loadImage->ImageKey = L"icons8-pictures-folder-50.png";
-				 this->loadImage->ImageList = this->ımageList1;
+				 this->loadImage->ImageList = this->Ã½mageList1;
 				 this->loadImage->Location = System::Drawing::Point(-2, -2);
 				 this->loadImage->Name = L"loadImage";
 				 this->loadImage->Size = System::Drawing::Size(112, 74);
@@ -209,18 +209,18 @@ namespace ImageLabeling {
 				 this->loadImage->UseVisualStyleBackColor = false;
 				 this->loadImage->Click += gcnew System::EventHandler(this, &MyForm::loadImage_Click);
 				 // 
-				 // ımageList1
+				 // Ã½mageList1
 				 // 
-				 this->ımageList1->ImageStream = (cli::safe_cast<System::Windows::Forms::ImageListStreamer^>(resources->GetObject(L"ımageList1.ImageStream")));
-				 this->ımageList1->TransparentColor = System::Drawing::Color::Transparent;
-				 this->ımageList1->Images->SetKeyName(0, L"icons8-save-as-50.png");
-				 this->ımageList1->Images->SetKeyName(1, L"icons8-pictures-folder-50.png");
-				 this->ımageList1->Images->SetKeyName(2, L"leftArrow.png");
-				 this->ımageList1->Images->SetKeyName(3, L"rightArrow.png");
-				 this->ımageList1->Images->SetKeyName(4, L"deleteSelected.png");
-				 this->ımageList1->Images->SetKeyName(5, L"deleteAll.png");
-				 this->ımageList1->Images->SetKeyName(6, L"add.png");
-				 this->ımageList1->Images->SetKeyName(7, L"rename.png");
+				 this->Ã½mageList1->ImageStream = (cli::safe_cast<System::Windows::Forms::ImageListStreamer^>(resources->GetObject(L"Ã½mageList1.ImageStream")));
+				 this->Ã½mageList1->TransparentColor = System::Drawing::Color::Transparent;
+				 this->Ã½mageList1->Images->SetKeyName(0, L"icons8-save-as-50.png");
+				 this->Ã½mageList1->Images->SetKeyName(1, L"icons8-pictures-folder-50.png");
+				 this->Ã½mageList1->Images->SetKeyName(2, L"leftArrow.png");
+				 this->Ã½mageList1->Images->SetKeyName(3, L"rightArrow.png");
+				 this->Ã½mageList1->Images->SetKeyName(4, L"deleteSelected.png");
+				 this->Ã½mageList1->Images->SetKeyName(5, L"deleteAll.png");
+				 this->Ã½mageList1->Images->SetKeyName(6, L"add.png");
+				 this->Ã½mageList1->Images->SetKeyName(7, L"rename.png");
 				 // 
 				 // label1
 				 // 
@@ -285,7 +285,7 @@ namespace ImageLabeling {
 				 this->deleteAll->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 				 this->deleteAll->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 				 this->deleteAll->ImageKey = L"deleteAll.png";
-				 this->deleteAll->ImageList = this->ımageList1;
+				 this->deleteAll->ImageList = this->Ã½mageList1;
 				 this->deleteAll->Location = System::Drawing::Point(-2, 318);
 				 this->deleteAll->Name = L"deleteAll";
 				 this->deleteAll->Size = System::Drawing::Size(112, 74);
@@ -299,7 +299,7 @@ namespace ImageLabeling {
 				 this->button3->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 				 this->button3->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 				 this->button3->ImageKey = L"leftArrow.png";
-				 this->button3->ImageList = this->ımageList1;
+				 this->button3->ImageList = this->Ã½mageList1;
 				 this->button3->Location = System::Drawing::Point(-2, 238);
 				 this->button3->Name = L"button3";
 				 this->button3->Size = System::Drawing::Size(112, 74);
@@ -312,7 +312,7 @@ namespace ImageLabeling {
 				 this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 				 this->button1->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 				 this->button1->ImageKey = L"icons8-save-as-50.png";
-				 this->button1->ImageList = this->ımageList1;
+				 this->button1->ImageList = this->Ã½mageList1;
 				 this->button1->Location = System::Drawing::Point(-2, 78);
 				 this->button1->Name = L"button1";
 				 this->button1->Size = System::Drawing::Size(112, 74);
@@ -326,7 +326,7 @@ namespace ImageLabeling {
 				 this->nextImage->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 				 this->nextImage->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 				 this->nextImage->ImageKey = L"rightArrow.png";
-				 this->nextImage->ImageList = this->ımageList1;
+				 this->nextImage->ImageList = this->Ã½mageList1;
 				 this->nextImage->Location = System::Drawing::Point(-2, 158);
 				 this->nextImage->Name = L"nextImage";
 				 this->nextImage->Size = System::Drawing::Size(112, 74);
@@ -398,7 +398,7 @@ namespace ImageLabeling {
 				 this->addClassButon->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 				 this->addClassButon->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 				 this->addClassButon->ImageKey = L"add.png";
-				 this->addClassButon->ImageList = this->ımageList1;
+				 this->addClassButon->ImageList = this->Ã½mageList1;
 				 this->addClassButon->Location = System::Drawing::Point(356, 35);
 				 this->addClassButon->Name = L"addClassButon";
 				 this->addClassButon->Size = System::Drawing::Size(60, 70);
@@ -428,7 +428,7 @@ namespace ImageLabeling {
 				 this->newClassName->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 				 this->newClassName->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 				 this->newClassName->ImageKey = L"rename.png";
-				 this->newClassName->ImageList = this->ımageList1;
+				 this->newClassName->ImageList = this->Ã½mageList1;
 				 this->newClassName->Location = System::Drawing::Point(356, 369);
 				 this->newClassName->Name = L"newClassName";
 				 this->newClassName->Size = System::Drawing::Size(60, 146);
@@ -546,7 +546,7 @@ namespace ImageLabeling {
 				 this->deleteButton->FlatStyle = System::Windows::Forms::FlatStyle::Popup;
 				 this->deleteButton->ForeColor = System::Drawing::SystemColors::ActiveCaptionText;
 				 this->deleteButton->ImageKey = L"deleteSelected.png";
-				 this->deleteButton->ImageList = this->ımageList1;
+				 this->deleteButton->ImageList = this->Ã½mageList1;
 				 this->deleteButton->Location = System::Drawing::Point(356, 565);
 				 this->deleteButton->Name = L"deleteButton";
 				 this->deleteButton->Size = System::Drawing::Size(60, 306);
@@ -823,7 +823,7 @@ namespace ImageLabeling {
 			sprintf(txtPath, "%s", txtFileName);
 
 			struct stat info;
-			if (stat(txtPath, &info) == 0) {//Aynı klasörde aynı isimde txt varsa
+			if (stat(txtPath, &info) == 0) {//AynÃ½ klasÃ¶rde aynÃ½ isimde txt varsa
 				readTxtFile(txtPath, bmpImage->Width, bmpImage->Height);
 				x1 = 0; x2 = 0; y1 = 0; y2 = 0;
 				isThereTxt = true;
@@ -842,11 +842,11 @@ namespace ImageLabeling {
 	}
 	private: System::Void savePoints_Click(System::Object^  sender, System::EventArgs^  e) {
 
-		//Normalize edilmiş merkez x,y noktaları ve w,h kaydedilecek.
+		//Normalize edilmiÃ¾ merkez x,y noktalarÃ½ ve w,h kaydedilecek.
 		if (!boundingBoxClasses.empty()) {
 			saveFileDialog1->Filter = "Text Document | .txt";
 
-			char cStr[250]; //Dosya ismi 250 karakterle sınırlı.
+			char cStr[250]; //Dosya ismi 250 karakterle sÃ½nÃ½rlÃ½.
 			if (saveFileDialog1->ShowDialog() == Windows::Forms::DialogResult::OK) {
 				String^ clrString = saveFileDialog1->FileName;
 
@@ -926,9 +926,11 @@ namespace ImageLabeling {
 			pushPointsToBoundingBox(x2, y2);
 			boundingBoxClasses.push_back(classListBox->SelectedIndex);
 
-			boundingBoxListBox->Items->Add("ID= " + (classListBox->SelectedIndex) + "    X= " + x1 +
-				"    Y= " + y1 + "    W= " + abs(x2 - x1) + "    H= " + abs(y2 - y1));
-
+			int center_x = x1 + abs(x2 - x1) / 2;
+			int center_y = y1 + abs(y2 - y1) / 2;
+			boundingBoxListBox->Items->Add("ID= " + (classListBox->SelectedIndex) + "    X= " + center_x +
+				"    Y= " + center_y + "    W= " + abs(x2 - x1) + "    H= " + abs(y2 - y1));
+				
 			pictureBox1->Refresh();
 		}
 	}
@@ -992,7 +994,7 @@ namespace ImageLabeling {
 		if (selectedIndex >= 0) {
 			boundingBoxListBox->Items->RemoveAt(selectedIndex);
 			int p_i_start = 4 * selectedIndex;
-			x1 = 0; y1 = 0; x2 = 0; y2 = 0; //Son kutu silindiğinde global olduğu için ekranda kalmasın diye.
+			x1 = 0; y1 = 0; x2 = 0; y2 = 0; //Son kutu silindiÃ°inde global olduÃ°u iÃ§in ekranda kalmasÃ½n diye.
 			boundingBoxClasses.erase(boundingBoxClasses.begin() + selectedIndex);
 			boundingBoxPoints.erase(boundingBoxPoints.begin() + p_i_start, boundingBoxPoints.begin() + p_i_start + 4);
 
